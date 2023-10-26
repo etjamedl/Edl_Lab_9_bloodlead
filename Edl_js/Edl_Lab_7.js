@@ -1,11 +1,5 @@
 // Create Map Object
 var map = L.map('map',{ center: [40.003926, -75.135201], zoom: 11 });
-L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_background/{z}/{x}/{y}{r}.{ext}', {
-	minZoom: 11,
-	maxZoom: 17,
-	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a>',
-	ext: 'png'
-}).addTo(map);
 
 var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
 'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
